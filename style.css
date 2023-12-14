@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #ececec;
+}
+
+/*------------ Login container ------------*/
+.container {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  display: flex;
+}
+
+.box-area{
+    width: 930px;
+}
+
+/*------------ Right box ------------*/
+
+.right-box{
+    padding: 60px;
+}
+
+/*------------ Custom Placeholder ------------*/
+
+::placeholder{
+    font-size: 16px;
+}
+
+.rounded-4{
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-align: left;
+}
+
+.img-fluid {
+  width: 50px;
+}
+
+.rounded-4 p {
+  font-family: 'Poppins', Courier, monospace;
+  font-size: 28px;
+  font-weight: 600; 
+  color: #363F5F;  
+  display: inline-block; 
+  margin-left: 6px;
+}
+
+.rounded-4 h1 { 
+  font-family: 'Poppins', Courier, monospace; 
+  font-size: 42px; 
+  font-weight: 700; 
+  color: #363F5F; 
+  line-height: 60px;
+}
+
+.right-box {
+  background: #5636D3; 
+  border-radius: 5px; 
+  text-align: center;
+}
+
+.row {
+  align-items:center;
+  color: #fff
+}
+
+.header-text p {
+  padding: 0 70px;
+}
+
+.input-group {
+  justify-content: space-between;
+  display: flex;
+}
+
+.input-group input {
+  font-size: 14px;
+  height: 45px;
+  border-radius: 5px;
+}
+
+.forgot small a {
+  color: #fff;
+}
+
+.input-group button {
+  width: 100%;
+  height: 45px;
+  background: #FF872C; 
+  border: #FF872C; 
+  font-size: 16px;  
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.input-group button:hover {
+  background: #fd9a4e; 
+}
+
+.row2 small a {
+  color: #FF872C;
+}
+
+.input-group-google button {
+  background: #fff;
+  height: 45px;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.input-group-google button:hover {
+  background: #f3f1f1;
+  width: 100%;
+  font-size: 16px;
+}
+
+.input-group-google button img {
+  width:20px;
+}
+
+/*------------ For small screens------------*/
+
+@media only screen and (max-width: 768px){
+
+     .box-area{
+        margin: 0 10px;
+
+     }
+     .left-box{
+        height: 380px;
+        overflow: hidden;
+     }
+     .right-box{
+        padding: 40px;
+     }
+
+}
